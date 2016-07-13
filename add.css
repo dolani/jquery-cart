@@ -1,0 +1,154 @@
+
+
+	#body{
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+	}
+
+
+	h1{
+		text-align: center;
+	}
+
+
+	.container{
+		width: 80%;	
+		margin-bottom: 20px;
+	}
+
+
+	#products,
+	#products2,
+	 #cart,
+	 #checkbox,
+	#checkbox2,
+	 #basket{
+		background-color: white;
+		border-radius: 10px;
+		padding-bottom: 10px;
+	}
+
+
+
+	#products, #products2{
+		cursor: pointer;
+	}
+
+
+	#checkbox, #checkbox2{
+		display: none;
+	}
+
+
+	#products h3, #products2 h3{
+		padding-top: 20px;
+		text-align: center;
+	}
+
+
+	}
+
+
+
+	/* average price brother is being styled here. */
+	#price :nth-child(2), #price2 :nth-child(2){
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+
+	/* cart heading styling. */
+	#cart h2 span{
+		font-size: 36px;
+		font: bold;
+		font-weight: 700px;
+	}
+
+	/* styling of the paragraphs inside the panels begins here. */
+	#paragraphs, #paragraphs2{
+		text-align: center;
+	}
+
+	#paragraphs :nth-child(1), #paragraphs2 :nth-child(1){
+
+		font-size: 18px;
+		font-weight: 700px;
+		font-family: "Open Sans", sans-serif;
+		font: bold;
+	}
+
+	#paragraphs :nth-child(2), #paragraghs2 : nth-child(2){
+		font-size: 13px;
+		line-height: 24px;
+		font-family: "Open Sans", sans-serif;
+		
+	}
+
+	/* styling of the paragraphs inside the panels begins here. */
+
+	/* heading for products types goes here. */
+	#checkbox h2, #checkbox2 h2{
+		padding-top: 20px;
+		text-align: center;
+	}
+	/* this keeps the products list away from the boundry. */
+	.checkbox{
+		padding-left: 20px;
+	}
+
+
+	#cart h2{
+		padding-top: 15px;
+		text-align: center;
+	}
+
+	#cart h2 strong{
+		color: red;
+	}
+
+	#total{
+		color: red;
+	}
+
+	#basket h2{
+		padding-top: 15px;
+		text-align: center;
+		
+	}
+
+	#basket{
+		text-align: center;
+	}
+
+	ul{
+		text-transform: uppercase;
+	}
+	ul :nth-of-type(even){
+		color: red;
+	}
+
+	/* this keeps my modal box at the center of the page, */
+	#myModal{
+		top: 25%;
+	}
+
+	/* buttons won't display until at least one products is selected. */
+	#button {
+		display: none;
+	}
+
+
+	.closee {
+	    color: #aaa;
+	    float: right;
+	    font-size: 20px;
+	    
+	}
+	.closee:hover,
+	.closee:focus {
+	    color: black;
+	    text-decoration: none;
+	    cursor: pointer;
+	}
