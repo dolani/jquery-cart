@@ -11,7 +11,7 @@ This is a simple project that uses css and jquery to select an item and add it t
 4. Click 'Get Loaded' to check items out
 5. Click 'pay' from the pop up modal.
 
-#Yet to implement
+# Yet to implement
 1. Beautify UI
 2. Increase the number of store.
 3. Add more items to the store.
